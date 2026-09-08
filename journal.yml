@@ -38,9 +38,8 @@ id_pattern: "^[a-z0-9]+-\\d{4}-[a-z0-9-]+$"
 # typst_template: ./typst-template
 
 preview:
-  # 'artifact' degrades to a build-artifact link. Switch to 'cloudflare' + set
-  # cf_project_name once the paper repos carry the CLOUDFLARE_* secrets.
-  provider: artifact
+  provider: cloudflare
+  cf_project_name: oaktree-sapling-test
   branch_pattern: paper-{repo}-{pr}
 
 # Optional per-tenant Zenodo config; a fresh journal has neither.
