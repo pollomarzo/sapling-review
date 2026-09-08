@@ -6,10 +6,9 @@ version: 1
 # with your own mark.
 site:
   options:
-    logo_text: CHANGE-ME Journal
-    # logo: https://example.org/logo.svg
-    # favicon: https://example.org/logo.svg
-    # logo_url: https://example.org
+    logo_text: The Sapling Review
+    logo: ./logo.svg
+    favicon: ./logo.svg
 project:
   options:
     logo: ./logo.svg

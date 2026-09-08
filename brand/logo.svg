@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Journal logo placeholder">
-  <rect width="120" height="120" rx="12" fill="#1a1a1a"/>
-  <text x="60" y="72" font-family="sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">J</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="The Sapling Review logo">
+  <rect width="120" height="120" rx="14" fill="#2f6b4f"/>
+  <path d="M60 92 V56" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 62 C60 44 46 36 34 36 C34 54 46 62 60 62 Z" fill="#ffffff"/>
+  <path d="M60 56 C60 40 74 32 86 32 C86 50 74 58 60 58 Z" fill="#dff0e6"/>
 </svg>
