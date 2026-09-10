@@ -7,7 +7,7 @@ version: 1
 # `editions/<edition>.yml`.
 project:
   subject: Article
-  venue: CHANGE-ME Journal
+  venue: The Sapling Review
   # Asserted to readers and to Zenodo, and the paper template seeds a matching LICENSE file.
   # Changing it here means replacing that LICENSE in each paper repo (it is not a frozen file,
   # so `oak upgrade` will not do it for you).
