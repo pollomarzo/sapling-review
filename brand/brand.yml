@@ -1,14 +1,12 @@
 version: 1
 
-# Brand: the journal's visual identity. HTML assets (site.options.logo /
-# favicon) may be absolute URLs; the typst PDF watermark MUST be a REAL local file, which
-# compose() absolutizes (`./logo.svg` → <instanceRoot>/brand/logo.svg). Replace logo.svg
-# with your own mark.
+# Brand: the journal's visual identity. Paths start at the repo root. Replace logo.svg with
+# your own mark.
 site:
   options:
     logo_text: The Sapling Review
-    logo: ./logo.svg
-    favicon: ./logo.svg
+    logo: brand/logo.svg
+    favicon: brand/logo.svg
 project:
   options:
-    logo: ./logo.svg
+    logo: brand/logo.svg
